@@ -13,3 +13,16 @@ If no, add it
 $ export PYTHONPATH=$PYTHONPATH:~/workspace/models/research/
 $ export PYTHONPATH=$PYTHONPATH:~/workspace/models/research/slim/
 ```
+
+## Necessary package installation
+Since `model_lib.py` requires `pycocotools` package, 
+we have to install it by:
+```
+$ pip install pycocotools
+```
+
+## Dataset downloading
+To download the VOC2007 dataset, run:
+```
+$ 
+```
