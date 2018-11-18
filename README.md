@@ -15,10 +15,16 @@ $ export PYTHONPATH=$PYTHONPATH:~/workspace/models/research/slim/
 ```
 
 ## Necessary package installation
-Since `model_lib.py` requires `pycocotools` package, 
-we have to install it by:
+Basic packages include:
 ```
-$ pip install pycocotools
+$ pip install numpy matplotlib opencv-python opencv-contrib-python Pillow
+```
+
+Since `model_lib.py` requires `pycocotools` package, 
+creating `TFrecord` will requires `lxml`,
+we install them by:
+```
+$ pip install lxml Cython pycocotools
 ```
 
 ## Dataset downloading
