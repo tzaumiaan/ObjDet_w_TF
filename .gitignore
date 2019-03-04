@@ -1,0 +1,5 @@
+.*.swp
+.*.swo
+.DS_Store
+pretrained/ssd_mobilenet*
+train_pascal_0
