@@ -1,4 +1,4 @@
-# adapted from Tensorflow/models/research/object_detection/legacy/trainer.py
+# adapted from Tensorflow/models/research/object_detection/legacy/train.py
 """
 Example usage:
     ./train \

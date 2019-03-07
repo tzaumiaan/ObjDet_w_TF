@@ -2,4 +2,5 @@
 .*.swo
 .DS_Store
 pretrained/ssd_mobilenet*
-train_pascal_0
+train_*_0
+eval_*_0
