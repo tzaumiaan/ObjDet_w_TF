@@ -1,14 +1,14 @@
 item {
   id: 1
-  name: 'car'
+  name: 'racecar'
 }
 
 item {
   id: 2
-  name: 'person'
+  name: 'car'
 }
 
 item {
   id: 3
-  name: 'bike'
+  name: 'person'
 }

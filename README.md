@@ -10,8 +10,7 @@ $ echo $PYTHONPATH
 ```
 If no, add it. (Note: here the models are downloaded in `~/workspace/`)
 ```
-$ export PYTHONPATH=$PYTHONPATH:~/workspace/models/research/
-$ export PYTHONPATH=$PYTHONPATH:~/workspace/models/research/slim/
+$ source env.sh
 ```
 
 ## Necessary package installation
